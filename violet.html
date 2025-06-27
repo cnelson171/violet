@@ -4,23 +4,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Violet: More Than a Flower</title>
     <style>
-        body {font-family: Verdana, sans-serif;}
-        .mySlides {display: none;}
-        img {vertical-align: middle;}
-        .slideshow-container {
-            max-width: 1000px;
+
+        body{
+            font-family: Verdana, sans-serif;
+            background-image: url("background.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #4b0082;
+        
+        }
+
+        .mySlides {
+            display: none;
             position: relative;
+            text-align: center;
+          border-radius: 10px;  
+            padding: 10px;  
+
+
+        }
+        
+        .image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        header {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #4b0082;
+        }
+        .container {
+            max-width: 800px;
             margin: auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .slideshow-container {
+            max-width: 400px;
+             margin: auto;
+            position: relative;
+            size-adjust: 100%;
+
+        
+          
         }
         .fade {
             animation-name: fade;
             animation-duration: 1.5s;
+
         }
         .dot {
             height: 15px;
             width: 15px;
             margin: 0 2px;
-            background-color: #bbb;
+            background-color: #c8a2c8;
             border-radius: 50%;
             display: inline-block;
             transition: background-color 0.6s ease;
@@ -50,7 +94,7 @@
 
             <div class="mySlides fade">
                 <div class="numbertext">2 /5 </div>
-                <img class="image" slide2.png" style="width:100%">
+                <img class="image" src="slide2.png" style="width:100%">
 
             </div>
 
