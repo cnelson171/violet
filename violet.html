@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="description" content="A brief overview of violets, their characteristics, history, and significance.">
+    <meta name="keywords" content="violet, flower, botany, nature, edible flowers, history, symbolism">
+    <meta name="author" content="Chase">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
     <title>Violet: More Than a Flower</title>
     <style>
 
         body{
-            font-family: Verdana, sans-serif;
+            font-family: 'Raleway', sans-serif;
             background-image: url("background.png");
             background-size: cover;
             background-position: center;
@@ -26,9 +35,12 @@
         }
         
         .image {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
+            width: 450px;         /* Set your desired width */
+    height: 250px;        /* Set your desired height */
+    object-fit: cover;    /* Ensures image covers the area */
+    border-radius:300px;
+    display: block;
+    margin: 0 auto;
         }
         header {
             text-align: center;
@@ -76,40 +88,44 @@
             position: absolute;
             top: 0;
         }
+        .text{
+            text-align: center;
+
+        }
+    
+.raleway{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: italic;
+}
+
     </style>
 </head>
 <body>
     <div class="container">
-        <header>
-            Violet is not just a color,or a flower, or a name of someone you may know
-
-        </header>
+     
         <div class="slideshow-container">
 
             <div class="mySlides fade">
-                <div class="numbertext">1 / 5</div>
                 <img class="image" src="slide1.png" style="width:100%">
 
             </div>
 
             <div class="mySlides fade">
-                <div class="numbertext">2 /5 </div>
                 <img class="image" src="slide2.png" style="width:100%">
 
             </div>
 
             <div class="mySlides fade">
-                <div class="numbertext">3 / 5</div>
                 <img class="image" src="slide3.png" style="width:100%">
 
             </div>
             <div class="mySlides fade">
-                <div class="numbertext">4 /5 </div>
                 <img class="image" src="slide4.png" style="width:100%">
 
             </div>
             <div class="mySlides fade">
-                <div class="numbertext">5 / 5</div>
                 <img class="image" src="slide5.png" style="width:100%">
 
             </div>
@@ -124,21 +140,37 @@
             <span class="dot"></span>
         </div>
 
-    <p>Violets are charming little flowers with a big personality. Known for their early spring blooms, they’re often among
-        the
-        first signs of life after winter, sometimes even pushing through snow. With over 500 species found worldwide,
-        violets
-        grow in woodlands, gardens, and even sidewalks, making them a surprisingly resilient plant. Their petals aren’t just
-        pretty—they’re edible too! Often used in teas, salads, and desserts, violet flowers have a sweet, floral flavor.
-        Historically, they’ve symbolized modesty, loyalty, and everlasting love, making them popular in Victorian flower
+    <div class="text"><p>Violets are charming little flowers with a big personality.</p>
+    
+    <p> Known for their early spring blooms, they’re often among
+        thefirst signs of life after winter, sometimes even pushing through snow. With over 500 species found worldwide,
+        violetsgrow in woodlands, gardens, and even sidewalks, making them a surprisingly resilient plant. Their petals
+        aren’t just
+        pretty—they’re edible too! Often used in teas, salads, and desserts, violet flowers have a sweet, floral flavor.</p>
+    
+    <p>Violets come in a rainbow of colors, from deep purple to white and even yellow, but they’re most famous for their
+        rich purple hue. This color has a fascinating history, often associated with royalty and spirituality.
+        Ancient Romans used a violet dye for their togas, and in medieval times, the color was linked to the divine, often
+        seen in church
+        vestments. The name “violet” itself comes from the Latin word “viola,” which means “purple.”</p>
+    
+    <p>Historically, they’ve symbolized modesty, loyalty, and everlasting love, making them popular in Victorian flower
         language. Violets are also pollinator-friendly, using special “nectar guides” to attract bees and butterflies. Some
         varieties are self-pollinating and excellent at reseeding, which means they’ll keep coming back year after year.
         Even
         their leaves are useful, rich in vitamins and used in traditional remedies. As a bonus botanical quirk, the pigments
         in
-        violet petals can actually change color depending on pH—making them nature’s own little litmus test!</p>
-
+        violet petals can actually change color depending on pH—making them nature’s own little litmus test!</p></div>
+            <p>So, next time you see a violet, take a moment to appreciate not just its beauty, but also its rich history and
+                the role it plays in our ecosystem. These little flowers are more than just a pretty face—they’re a testament
+                to nature’s resilience and creativity.</p>
+                <h6>coded by Chase Haddad</h6>
+    </div>
 </div>
+</div> 
+<footer>
+    <p style="text-align: center; font-size: 14px; color: #4b0082;">&copy; 2023 Violet Enthusiasts</p>
+</footer> 
 </body>
 <script>
     let slideIndex = 0;
